@@ -29,6 +29,7 @@ gem 'jbuilder', '~> 2.7'
 gem 'bootsnap', '>= 1.4.2', require: false
 gem 'devise', '~> 4.7', '>= 4.7.3' #devise gem for authentication
 gem 'devise_invitable', '~> 2.0.0' #devise invitable 
+gem 'letter_opener', '~> 1.7' #letter opener for invitable
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]

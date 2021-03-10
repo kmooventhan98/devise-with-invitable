@@ -4,5 +4,6 @@
 <%= link_to 'Create Account',   new_user_registration_path %> 
 <%= link_to 'LogIn',  new_user_session_path %> 
 <% else %>
+<%= link_to 'Invite', new_user_invitation_path %>
 <%= link_to 'Logout',  destroy_user_session_path, method: :delete %> 
 <% end %>
